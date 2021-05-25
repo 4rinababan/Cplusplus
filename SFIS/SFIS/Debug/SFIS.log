@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  core.cpp
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(74): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1323): note: see declaration of 'itoa'
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(427): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(430): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(437): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(440): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(450): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(523): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(532): warning C4477: 'sprintf_s' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer,std::vector<uint8_t,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\ari\asus\asus_dll\sfis\sfis\core.cpp(197): warning C4715: 'SATNUSA_SFIS_Connect': not all control paths return a value
+core.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library .\Debug\SFIS11.lib and object .\Debug\SFIS11.exp
+SFIS11.exp : warning LNK4070: /OUT:SFIS.dll directive in .EXP differs from output filename '.\Debug\SFIS11.dll'; ignoring directive
+  SFIS.vcxproj -> D:\ARI\ASUS\asus_dll\SFIS\SFIS\.\Debug\SFIS11.dll
